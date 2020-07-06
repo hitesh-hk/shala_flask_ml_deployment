@@ -14,7 +14,7 @@
   <img src="https://user-images.githubusercontent.com/5097752/71063354-8caa1d00-213a-11ea-86eb-879238887c1f.png" height="420px" alt="">
 </p>
 
-## New Features :fire:
+## Features :fire:
 
 - Enhanced, mobile-friendly UI
 - Support image drag-and-drop
