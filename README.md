@@ -1,13 +1,5 @@
 # Deploy Keras Model with Flask as Web App in 10 Minutes
 
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
-[![](https://img.shields.io/badge/python-3.5%2B-green.svg)]()
-![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
-
-A pretty and customizable web app to deploy your DL model with ease
-
-<a href="https://www.buymeacoffee.com/fing" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
-
 ## Getting Started in 10 Minutes
 
 - Clone this repo 
@@ -35,7 +27,6 @@ A pretty and customizable web app to deploy your DL model with ease
   <img src="https://user-images.githubusercontent.com/5097752/71062921-aeef6b00-2139-11ea-8b23-6b9eb1e326ca.png" height="330px" alt="">
 </p>
 
-_If you need to use Python 2.x or TensorFlow 1.x, check out the [legacy](https://github.com/mtobeiyf/keras-flask-deploy-webapp/tree/legacy) snapshot_
 
 
 ------------------
@@ -99,7 +90,7 @@ Check the [commented code](https://github.com/mtobeiyf/keras-flask-deploy-webapp
 
 See [Keras applications](https://keras.io/applications/) for more available models such as DenseNet, MobilNet, NASNet, etc.
 
-Check [this section](https://github.com/mtobeiyf/keras-flask-deploy-webapp/blob/master/app.py#L26) in app.py.
+Check [this section](https://github.com/hitesh-hk/shala_flask_ml_deployment/blob/master/app.py#L26) in app.py.
 
 ### UI Modification
 
@@ -131,7 +122,7 @@ $ gunicorn -b 127.0.0.1:5000 app:app
 
 More deployment options, check [here](https://flask.palletsprojects.com/en/1.1.x/deploying/wsgi-standalone/)
 
-### Set up Nginx
+### Set up Nginx 
 
 To redirect the traffic to your local app.
 Configure your Nginx `.conf` file.
@@ -150,9 +141,6 @@ server {
 
 </details>
 
-## Future Plan
-
-- [ ] Support detection and segmentation models
 
 ## More Resources
 
