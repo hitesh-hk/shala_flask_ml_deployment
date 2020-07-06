@@ -84,7 +84,7 @@ It's also easy to customize and include your models in this app.
 
 Place your trained `.h5` file saved by `model.save()` under models directory.
 
-Check the [commented code](https://github.com/mtobeiyf/keras-flask-deploy-webapp/blob/master/app.py#L37) in app.py.
+Check the [commented code](https://github.com/hitesh-hk/shala_flask_ml_deployment/blob/master/app.py#L37) in app.py.
 
 ### Use other pre-trained model
 
